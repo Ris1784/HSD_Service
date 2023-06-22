@@ -2,30 +2,47 @@
   "posts": [
     {
       "id": 1,
-      "title": "Post 1",
-      "description": "this is description 1"
+"action" : "addService",
+"dataPlan" : "Silver",
+"equipmentIdentificator" : "AA:BB:CC:DD:EE:FF"
     },
     {
       "id": 2,
-      "title": "Post 2",
-      "description": "this is description 2"
+"action" : "modifyService",
+"dataPlan" : "Bronze",
+"equipmentIdentificator" : "AA:BB:CC:DD:EE:FF"
     },
     {
       "id": 3,
-      "title": "Post 3",
-      "description": "this is description 3"
+"action" : "deleteService",
+"dataPlan" : "Silver",
+"equipmentIdentificator" : "AA:BB:CC:DD:EE:FF"
     }
   ],
-  "comments": [
+  "answer": [
     {
       "id": 1,
-      "body": "comment 1",
+"transactionId": "IW_9636753-6925082",
+      "dataPlan": "Silver",
+"equipmentIdentificator": "AA:BB:CC:DD:EE:FF",
+      "orderStatus": "addService-Executed-Success"
       "postId": 1
     },
     {
       "id": 2,
-      "body": "comment 2",
-      "postId": 1
+"transactionId": "IW_5078716-3935689",
+ "dataPlan": "Bronze",
+"equipmentIdentificator": "AA:BB:CC:DD:EE:FF",
+ "orderStatus": "modifyService-Executed-Success"}
+      "postId": 2
+    },
+        {
+      "id": 3,
+"transactionId": "IW_6946881-8947331",
+"dataPlan": "Gold",
+"equipmentIdentificator": "AA:BB:CC:DD:EE:FF",
+"orderStatus": "deleteService-Executed-Success"
+      "postId": 3
     }
   ],
   "profile": {
