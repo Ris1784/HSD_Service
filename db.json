@@ -2,21 +2,21 @@
   "posts": [
     {
       "id": 1,
-"action" : "addService",
-"dataPlan" : "Silver",
-"equipmentIdentificator" : "AA:BB:CC:DD:EE:FF"
+"action": "addService",
+"dataPlan": "Silver",
+"equipmentIdentificator": "AA:BB:CC:DD:EE:FF"
     },
     {
       "id": 2,
-"action" : "modifyService",
-"dataPlan" : "Bronze",
-"equipmentIdentificator" : "AA:BB:CC:DD:EE:FF"
+"action": "modifyService",
+"dataPlan": "Bronze",
+"equipmentIdentificator": "AA:BB:CC:DD:EE:FF"
     },
     {
       "id": 3,
-"action" : "deleteService",
-"dataPlan" : "Silver",
-"equipmentIdentificator" : "AA:BB:CC:DD:EE:FF"
+"action": "deleteService",
+"dataPlan": "Silver",
+"equipmentIdentificator": "AA:BB:CC:DD:EE:FF"
     }
   ],
   "answer": [
